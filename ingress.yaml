@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nuage-up-ingress
+  labels:
+    name: nuage-app
+spec:
+  rules:
+  - host: nuageup.com     # I'm using as example
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: nuage-up-service
+            port: 
+              number: 80
