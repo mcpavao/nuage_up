@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nuage-up-app
+  name: nuage-up-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nuage-up-app
+      app: nuage-app
   template:
     metadata:
       labels:
-        app: nuage-up-app
+        app: nuage-app
     spec:
       containers:
-      - name: nuage-up-app
+      - name: nuage-app
         image: mcpavaopereira/nuage_test:latest
         ports:
         - containerPort: 80
