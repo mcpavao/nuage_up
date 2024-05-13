@@ -5,5 +5,6 @@ If you have any questions, please do not hesitate to contact me.
 
 # Pre-requisites 
 Before you start, please make sure you have all the dependencies installed.
+- Docker (https://docs.docker.com/engine/install/)
 
 
