@@ -1,3 +1,3 @@
-# Welcome to my Github. Please follow the instructions below
-Containerizing and Deploying our Application on Kubernetes
+# Application on Docker / Kubernetes
+Containerizing and Deploying our Application on Docker and Kubernetes
 
