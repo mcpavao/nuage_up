@@ -17,6 +17,7 @@ Once you have all the pre-requisites installed, please follow below:
 
 1 - Download the Dockerimage from the DockerHub Repository:
 - docker pull mcpavaopereira/nuage_test:latest
+  
 2 - Download the Github files from my GitHub repository:
 - Deployment.yaml
 - Service.yaml
