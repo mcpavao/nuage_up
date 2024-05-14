@@ -43,7 +43,8 @@ Once you tested the image, you can stop the process:
 # Innitializing the App via K8s(Kubernetes)
 
 1 - Create a Cluster via KIND(Kubernetes) using the command below:
-In your terminal run the command: - kind create cluster
+In your terminal run the command: 
+- kind create cluster
 
  To check if the cluster has been created, please run:
 - kubectl get nodes
