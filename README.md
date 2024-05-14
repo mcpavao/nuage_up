@@ -92,7 +92,7 @@ This command will show the number of replicas, minimum pods and maximum pods. In
 - NetworkPolicy
   - kubectl get networkpolicy
 
-The application is running, dockerized and containerized in Kubernetes.!!
+#The application is running, dockerized and containerized in Kubernetes.!!
 
 
 
