@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: nuage-up-service
 spec:
+  type: LoadBalancer
   selector:
     app: nuage-app
-  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  
+
