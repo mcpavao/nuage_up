@@ -47,6 +47,7 @@ In your terminal run the command: - kind create cluster
 
  To check if the cluster has been created, please run:
 - kubectl get nodes
+
 The cluster name and details will appear
 
 # Applying yaml files to have the application running in you cluster
@@ -64,10 +65,12 @@ Once you have those files applied into your node(cluster) we can test it.
 # Testing Tools
 - Deployment
   - kubectl get deployments
+
     This command will display the number of pods ready(in service) availability and age(when it was created)
 
 - Service
   - kubectl get services
+
     This command will display the service name, type of service, cluster-ip, external-ip, ports and age.
     In our case, the type of service is LoadBalancer. If you deploy this application on AWS(for example) and you Elastic LoadBalancer is configured
     an external IP will be allocated for our application. Meaning, the application can be accessed externally.
@@ -77,11 +80,13 @@ Once you have those files applied into your node(cluster) we can test it.
 
 - Ingress
   - kubectl get ingress
-    This command will show the ingress name, hosts, address, ports and age.
+
+This command will show the ingress name, hosts, address, ports and age.
 
 - HPA
   - kubectl get hpa
-    This command will show the number of replicas, minimum pods and maximum pods. In case of CPU hits 70% of capacity, a new pod will be added.
+
+This command will show the number of replicas, minimum pods and maximum pods. In case of CPU hits 70% of capacity, a new pod will be added.
  
 - NetworkPolicy
   - kubectl get networkpolicy
