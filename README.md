@@ -33,7 +33,7 @@ sudo systemctl status docker
 
 If you see the status : active(running), you are ready to procced
 
-You can test the Docker Image running locally using:
+You can test the Docker Image running locally using: 
     docker run -p 80:80 mcpavaopereira/nuage_test:latest
 
 When you open you browser and type http://localhost - The nuage_up app will appear
