@@ -25,7 +25,7 @@ Once you have all the pre-requisites installed, please follow below:
 - hpa.yaml
 - networkpolicy.yaml
 
-# Test the DockerImage 
+# Testing the DockerImage 
 
 Make sure the Docker status is active:
 
