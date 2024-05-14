@@ -16,13 +16,13 @@ Before you start, please make sure you have all the dependencies installed.
 Once you have all the pre-requisites installed, please follow below:
 
 1 - Download the Dockerimage from the DockerHub Repository:
-    docker pull mcpavaopereira/nuage_test:latest
+- docker pull mcpavaopereira/nuage_test:latest
 2 - Download the Github files from my GitHub repository:
-    - Deployment.yaml
-    - Service.yaml
-    - Ingress.yaml
-    - hpa.yaml
-    - networkpolicy.yaml
+- Deployment.yaml
+- Service.yaml
+- Ingress.yaml
+- hpa.yaml
+- networkpolicy.yaml
 
 # Test the DockerImage 
 
